@@ -207,7 +207,10 @@ h6{font-size:16px}
 .redondeado{border-radius:4px}
 
 /* foto */
-.contenedor-foto{position:relative}
+.contenedor-foto{
+    position:relative;
+    align-content: center;
+}
 
 .foto{
     width:100%;
@@ -240,3 +243,14 @@ h6{font-size:16px}
 .ancho-maximo{
     max-width:1400px
 }
+
+#cv {
+    width: 45px;
+    height: 55px;
+    /* IE 9 */
+    -ms-transform: rotate(15deg); 
+    /* Chrome, Safari, Opera */
+    -webkit-transform: rotate(15deg); 
+    transform: rotate(15deg);
+    box-shadow: 1px 1px 1px #888888;
+  }
