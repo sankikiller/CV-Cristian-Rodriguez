@@ -222,7 +222,6 @@ h6{font-size:16px}
     .dostercios{width:66.66666%}  
 }
 
-
 .porcentaje100{
     width:100%
 }
@@ -245,8 +244,8 @@ h6{font-size:16px}
 }
 
 #cv {
-    width: 45px;
-    height: 55px;
+    width: 10%;
+    height: 12%;
     /* IE 9 */
     -ms-transform: rotate(15deg); 
     /* Chrome, Safari, Opera */
