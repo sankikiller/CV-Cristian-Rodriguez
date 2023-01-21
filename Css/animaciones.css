@@ -6,110 +6,87 @@
     /* Chrome, Safari, Opera */
     -webkit-animation: fadeInDown 4s; 
     animation: fadeInDown 4s;
-  }
+}
   
-  .fadeInUp {
+.fadeInUp {
     /* Chrome, Safari, Opera */  
     -webkit-animation: fadeInUp 4s; 
     animation: fadeInUp 4s;
-  }
+}
   
-  .fadeInUp2 {
-    /* Chrome, Safari, Opera */  
-    -webkit-animation: fadeInUp2 3.7s; 
-    animation: fadeInUp2 3.7s;
-  }
-  
-  .fadeInLeft {
+.fadeInLeft {
     /* Chrome, Safari, Opera */  
     -webkit-animation: fadeInLeft 4s; 
     animation: fadeInLeft 4s;
-  }
+}
   
-  .fadeInRight {
+.fadeInRight {
     /* Chrome, Safari, Opera */  
     -webkit-animation: fadeInRight 4s; 
     animation: fadeInRight 4s;
-  }
+}
   
-  .aparecer {
+.aparecer {
     /* Chrome, Safari, Opera */
     -webkit-animation: aparecer 6s; 
     animation: aparecer 6s;
-  }
+}
   
-  /* Chrome, Safari, Opera */
-  @-webkit-keyframes fadeInDown {
-      0% {
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeInDown {
+    0% {
       opacity: 0;
       transform: translate3d(0, -100%, 0);
-    }
-  
+    }  
     100% {
       opacity: 1;
       transform: none;
     }
-  }
+}
   
-  /* Chrome, Safari, Opera */
-  @-webkit-keyframes fadeInUp {
-      0% {
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeInUp {
+    0% {
       opacity: 0;
       transform: translate3d(0, 100%, 0);
-    }
-  
+    }  
     100% {
       opacity: 1;
       transform: none;
     }
-  }
+}
+
   
-  /* Chrome, Safari, Opera */
-  @-webkit-keyframes fadeInUp2 {
-      0% {
-      opacity: 0;
-      transform: translate3d(0, 100%, 0);
-    }
-  
-    100% {
-      opacity: 1;
-      transform: none;
-    }
-  }
-  
-  /* Chrome, Safari, Opera */
-  @-webkit-keyframes fadeInLeft {
-      0% {
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeInLeft {
+    0% {
       opacity: 0;
       transform: translate3d(-100%, 0, 0);
-    }
-  
+    }  
     100% {
       opacity: 1;
       transform: none;
     }
-  }
+}
   
-  /* Chrome, Safari, Opera */
-  @-webkit-keyframes fadeInRight {
-      0% {
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeInRight {
+    0% {
       opacity: 0;
       transform: translate3d(100%, 0, 0);
-    }
-  
+    }  
     100% {
       opacity: 1;
       transform: none;
     }
-  }
-  
-  /* Chrome, Safari, Opera */
-  @-webkit-keyframes aparecer {
-      0% {
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes aparecer {
+    0% {
       opacity: 0;
-    }
-  
+    } 
     100% {
       opacity: 1;
     }
-  }
+}
