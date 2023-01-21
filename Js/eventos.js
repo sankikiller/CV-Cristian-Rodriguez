@@ -9,17 +9,12 @@ async function getIpClient() {
 }
 getIpClient();
 
-/*botón ver sitio web*/
-document.getElementById('boton-web').addEventListener('click', function(){
-  var win = window.open('http://guiagalvez.com.ar/cristian', '_blank');
-  // Cambiar el foco al nuevo tab (punto opcional)
-  win.focus();
-})
-
-/*botón ver redes sociales*/
-document.getElementById('boton-redes').addEventListener('click', function(){
-  var win = window.open('#redessociales', '_blank');
-  // Cambiar el foco al nuevo tab (punto opcional)
-  win.focus();
-})
-
+/* función barra de navegación, la obtuve de w3school*/
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
