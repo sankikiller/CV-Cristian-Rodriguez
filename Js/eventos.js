@@ -9,13 +9,12 @@ async function getIpClient() {
 }
 getIpClient();
 
-/* función barra de navegación, la obtuve de w3school
-cambia la clase de la barra de navegación a modo responsive y viceversa*/
-function funcionBarraNavegacion() {
+/* función barra de navegación, la obtuve de w3school*/
+function myFunction() {
   var x = document.getElementById("myTopnav");
-  if (x.className === "barra-navegacion") {
+  if (x.className === "topnav") {
     x.className += " responsive";
   } else {
-    x.className = "barra-navegacion";
+    x.className = "topnav";
   }
 }
