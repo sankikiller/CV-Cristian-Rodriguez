@@ -279,6 +279,9 @@ h6{font-size:16px}
       float: right;
       display: block;
     }
+}
+  
+@media screen and (max-width: 600px) {
     .barra-navegacion.responsive {position: relative;}
     .barra-navegacion.responsive .icon {
       position: absolute;
@@ -291,5 +294,4 @@ h6{font-size:16px}
       text-align: left;
     }
 }
-
 /* fin barra de navegación */
