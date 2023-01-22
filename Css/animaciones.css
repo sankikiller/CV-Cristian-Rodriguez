@@ -1,29 +1,23 @@
 /**************
 /* Animaciones
 ***************/
-
-.fadeInDown {
-    /* Chrome, Safari, Opera */
-    -webkit-animation: fadeInDown 4s; 
-    animation: fadeInDown 4s;
+  
+.entrarSubiendo {
+    /* Chrome, Safari, Opera */  
+    -webkit-animation: entrarSubiendo 4s; 
+    animation: entrarSubiendo 4s;
 }
   
-.fadeInUp {
+.entrarPorIzquierda {
     /* Chrome, Safari, Opera */  
-    -webkit-animation: fadeInUp 4s; 
-    animation: fadeInUp 4s;
+    -webkit-animation: entrarPorIzquierda 4s; 
+    animation: entrarPorIzquierda 4s;
 }
   
-.fadeInLeft {
+.entrarPorDerecha {
     /* Chrome, Safari, Opera */  
-    -webkit-animation: fadeInLeft 4s; 
-    animation: fadeInLeft 4s;
-}
-  
-.fadeInRight {
-    /* Chrome, Safari, Opera */  
-    -webkit-animation: fadeInRight 4s; 
-    animation: fadeInRight 4s;
+    -webkit-animation: entrarPorDerecha 4s; 
+    animation: entrarPorDerecha 4s;
 }
   
 .aparecer {
@@ -33,19 +27,7 @@
 }
   
 /* Chrome, Safari, Opera */
-@-webkit-keyframes fadeInDown {
-    0% {
-      opacity: 0;
-      transform: translate3d(0, -100%, 0);
-    }  
-    100% {
-      opacity: 1;
-      transform: none;
-    }
-}
-  
-/* Chrome, Safari, Opera */
-@-webkit-keyframes fadeInUp {
+@-webkit-keyframes entrarSubiendo {
     0% {
       opacity: 0;
       transform: translate3d(0, 100%, 0);
@@ -55,10 +37,9 @@
       transform: none;
     }
 }
-
   
 /* Chrome, Safari, Opera */
-@-webkit-keyframes fadeInLeft {
+@-webkit-keyframes entrarPorIzquierda {
     0% {
       opacity: 0;
       transform: translate3d(-100%, 0, 0);
@@ -70,7 +51,7 @@
 }
   
 /* Chrome, Safari, Opera */
-@-webkit-keyframes fadeInRight {
+@-webkit-keyframes entrarPorDerecha {
     0% {
       opacity: 0;
       transform: translate3d(100%, 0, 0);

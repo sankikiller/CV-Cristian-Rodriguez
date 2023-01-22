@@ -21,88 +21,91 @@
 </head>
 
 <body class="gris-claro">  
+    <!--cabecera-->
+    <header>
+      <p class="padding-16-izq">Bienvenido a mi CV</p>
+    </header>
+    <!--barra de navegación-->
     <nav>
-      <div class="topnav" id="myTopnav">
-        <a href="#habilidades" class="active">Habilidades</a>
+      <div class="barra-navegacion" id="myTopnav">
+        <a href="#" class="active">CV</a>
+        <a href="#habilidades">Habilidades</a>
         <a href="#idiomas">Idiomas</a>
         <a href="#experiencia">Experiencia</a>
         <a href="#educacion">Educación</a>
         <a href="#redessociales">Redes Sociales</a>
         <a href="http://guiagalvez.com.ar/cristian">Sitio Web</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href="javascript:void(0);" class="icon" onclick="funcionBarraNavegacion()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
-
-      <div style="padding-left:16px">
+      <div class="padding-16-izq">
         <h2>Curriculum Vitae</h2>
       </div>
     </nav>
-
-
     <!-- Contenedor Página -->
-    <div class="contenido margen-superior ancho-maximo">
+    <main class="contenido margen-superior ancho-maximo">
       
       <!-- Grilla -->
       <div class="padding-columna">
       
         <!-- Columna Izquierda * Habilidades e Idiomas-->
-        <div class="untercio fadeInLeft">
+        <div class="untercio entrarPorIzquierda">
         
           <div class="blanco texto-gris tarjeta-sombra">
             <div class="contenedor-foto" id="contenedor-foto">
               <img src="/Imagenes/foto4x4.jpg" alt="Foto presentación del Curriculum Vitae" class="foto aparecer">
               <div class="mostrar-abajo-izquierda contenedor texto-negro">
                   
-                <span><img id="cv" class="fadeInUp" src="/Imagenes/cv.png" alt="cv"> <h2>Cristian Rodríguez</h2> </span>            
+                <span><img id="cv" class="entrarSubiendo" src="/Imagenes/cv.png" alt="cv"> <h2>Cristian Rodríguez</h2> </span>            
               </div>
             </div>
             <div class="contenedor">
-              <p><i class="fa fa-briefcase fa-fw margen-derecho fuente-xxgrande text-teal"></i>Desarrollador de Sitios Web</p>
-              <p><i class="fa fa-home fa-fw margen-derecho fuente-xxgrande text-teal"></i>Gálvez, Santa Fe</p>
-              <p><i class="fa fa-envelope fa-fw margen-derecho fuente-xxgrande text-teal"></i>sankikiller@gmail.com</p>
-              <p><i class="fa fa-phone fa-fw margen-derecho fuente-xxgrande text-teal"></i>3404510473</p>
+              <p><i class="fa fa-briefcase fa-fw margen-derecho icono-mediano text-coloreado"></i>Desarrollador de Sitios Web</p>
+              <p><i class="fa fa-home fa-fw margen-derecho icono-mediano text-coloreado"></i>Gálvez, Santa Fe</p>
+              <p><i class="fa fa-envelope fa-fw margen-derecho icono-mediano text-coloreado"></i>sankikiller@gmail.com</p>
+              <p><i class="fa fa-phone fa-fw margen-derecho icono-mediano text-coloreado"></i>3404510473</p>
               <hr>
 
-              <p class="fuente-xxgrande"><b><i class="fa fa-asterisk fa-fw margen-derecho text-teal" id="habilidades"></i>Habilidades</b></p>
+              <p class="icono-mediano"><b><i class="fa fa-asterisk fa-fw margen-derecho text-coloreado" id="habilidades"></i>Habilidades</b></p>
               <p>Html/Css</p>
-              <div class="gris-claro redondeado-xlargo fuente-pequenia">
-                <div class="contenedor centrado redondeado-xlargo teal porcentaje100">100%</div>
+              <div class="gris-claro redondeado-xlargo">
+                <div class="contenedor centrado redondeado-xlargo coloreado porcentaje100">100%</div>
               </div>
               <p>Javascript</p>
-              <div class="gris-claro redondeado-xlargo fuente-pequenia">
-                <div class="contenedor centrado redondeado-xlargo teal porcentaje90">
+              <div class="gris-claro redondeado-xlargo">
+                <div class="contenedor centrado redondeado-xlargo coloreado porcentaje90">
                   <div class="centrado texto-blanco">90%</div>
                 </div>
               </div>
               <p>Google Apps Script</p>
-              <div class="gris-claro redondeado-xlargo fuente-pequenia">
-                <div class="contenedor centrado redondeado-xlargo teal porcentaje95">95%</div>
+              <div class="gris-claro redondeado-xlargo">
+                <div class="contenedor centrado redondeado-xlargo coloreado porcentaje95">95%</div>
               </div>
               <p>Administración de Redes Sociales</p>
-              <div class="gris-claro redondeado-xlargo fuente-pequenia">
-                <div class="contenedor centrado redondeado-xlargo teal porcentaje70">70%</div>
+              <div class="gris-claro redondeado-xlargo">
+                <div class="contenedor centrado redondeado-xlargo coloreado porcentaje70">70%</div>
               </div>
               <br>
               <p>Desarrollo con Wordpress</p>
-              <div class="gris-claro redondeado-xlargo fuente-pequenia">
-                <div class="contenedor centrado redondeado-xlargo teal porcentaje100">100%</div>
+              <div class="gris-claro redondeado-xlargo">
+                <div class="contenedor centrado redondeado-xlargo coloreado porcentaje100">100%</div>
               </div>
               <br>
               <p>Desarrollo Apps Android</p>
-              <div class="gris-claro redondeado-xlargo fuente-pequenia">
-                <div class="contenedor centrado redondeado-xlargo teal porcentaje40">40%</div>
+              <div class="gris-claro redondeado-xlargo">
+                <div class="contenedor centrado redondeado-xlargo coloreado porcentaje40">40%</div>
               </div>
               <br>
 
-              <p class="fuente-xxgrande"><b><i class="fa fa-globe fa-fw margen-derecho text-teal" id="idiomas"></i>Idiomas</b></p>
+              <p class="icono-mediano"><b><i class="fa fa-globe fa-fw margen-derecho text-coloreado" id="idiomas"></i>Idiomas</b></p>
               <p>Español</p>
               <div class="gris-claro redondeado-xlargo">
-                <div class="contenedor centrado redondeado-xlargo teal porcentaje100">100%</div>
+                <div class="contenedor centrado redondeado-xlargo coloreado porcentaje100">100%</div>
               </div>
               <p>Inglés</p>
               <div class="gris-claro redondeado-xlargo">
-                <div class="contenedor centrado redondeado-xlargo teal porcentaje70">70%</div>
+                <div class="contenedor centrado redondeado-xlargo coloreado porcentaje70">70%</div>
               </div>
               <br>
             </div>
@@ -111,59 +114,59 @@
         </div>
 
         <!-- Columna Derecha * Experiencia -->
-        <div class="dostercios fadeInRight">    
+        <div class="dostercios entrarPorDerecha">    
           <!-- tarjeta experiencia -->
           <div class="contenedor tarjeta blanco margen-inferior">
-            <h2 class="texto-gris padding-16"><i class="fa fa-suitcase fa-fw margen-derecho fuente-xxxlarge text-teal" id="experiencia"></i>Experiencia Laboral</h2>
+            <h2 class="texto-gris padding-16"><i class="fa fa-suitcase fa-fw margen-derecho icono-grande text-coloreado" id="experiencia"></i>Experiencia Laboral</h2>
             <div class="contenedor">
                 <h5 class="opacidad"><b>Desarrollo de Sitios Web</b></h5>
-                <h6 class="text-teal"><i class="fa fa-calendar fa-fw margen-derecho"></i>Ene 2000 - <span class="etiqueta teal redondeado">Actualidad</span></h6>
+                <h6 class="text-coloreado"><i class="fa fa-calendar fa-fw margen-derecho"></i>Ene 2000 - <span class="etiqueta coloreado redondeado">Actualidad</span></h6>
                 <p>Actualmente desarrollo y mantenimiento de sitios web utilizando el sistema de gestión de contenidos WordPress.</p>
                 <hr>
             </div> 
             <div class="contenedor">
                 <h5 class="opacidad"><b>Administración de Redes Sociales / SAMCo Gálvez</b></h5>
-                <h6 class="text-teal"><i class="fa fa-calendar fa-fw margen-derecho"></i>Oct 2022 - <span class="etiqueta teal redondeado">Actualidad</span></h6>
+                <h6 class="text-coloreado"><i class="fa fa-calendar fa-fw margen-derecho"></i>Oct 2022 - <span class="etiqueta coloreado redondeado">Actualidad</span></h6>
                 <p>Administro la publicación de contenido en el sitio web de esta institución y luego su difusión en Facebook e Instagram para lograr aumentar el tráfico al sitio web.</p>
                 <hr>
               </div>
               <div class="contenedor">
                 <h5 class="opacidad"><b>Desarrollo Apps Android</b></h5>
-                <h6 class="text-teal"><i class="fa fa-calendar fa-fw margen-derecho"></i>Jul 2017 - <span class="etiqueta teal redondeado">Actualidad</span></h6>
+                <h6 class="text-coloreado"><i class="fa fa-calendar fa-fw margen-derecho"></i>Jul 2017 - <span class="etiqueta coloreado redondeado">Actualidad</span></h6>
                 <p>Desarrollo aplicaciones sencillas para android. En su mayoria son Radios Online.</p>
                 <hr>
             </div>
               <div class="contenedor">
               <h5 class="opacidad"><b>Dictado de clases de Desarrollo de Sitios Web / Punto Digital Gálvez</b></h5>
-              <h6 class="text-teal"><i class="fa fa-calendar fa-fw margen-derecho"></i>Feb 2021 - Dic 2021</span></h6>
+              <h6 class="text-coloreado"><i class="fa fa-calendar fa-fw margen-derecho"></i>Feb 2021 - Dic 2021</span></h6>
               <p>Dicté clases de Desarrollo de Sitios Web utilizando el sistema de gestión de contenidos WordPress.</p>
               <hr>
             </div>
           </div>
           <!-- tarjeta educación -->
           <div class="contenedor tarjeta blanco">
-            <h2 class="texto-gris padding-16"><i class="fa fa-certificate fa-fw margen-derecho fuente-xxxlarge text-teal" id="educacion"></i>Educación</h2>
+            <h2 class="texto-gris padding-16"><i class="fa fa-certificate fa-fw margen-derecho icono-grande text-coloreado" id="educacion"></i>Educación</h2>
             <div class="contenedor">
                 <h5 class="opacidad"><b>Argentina Programa 4.0 / Argentina.gob.ar</b></h5>
-                <h6 class="text-teal"><i class="fa fa-calendar fa-fw margen-derecho"></i>Enero 2023</h6>
+                <h6 class="text-coloreado"><i class="fa fa-calendar fa-fw margen-derecho"></i>Enero 2023</h6>
                 <p>Primeros pasos en Front-end de Ticmas Academy.</p>
                 <hr>
               </div>
               <div class="contenedor">
               <h5 class="opacidad"><b>Se Programar / Argentina.gob.ar</b></h5>
-              <h6 class="text-teal"><i class="fa fa-calendar fa-fw margen-derecho"></i>2022</h6>
+              <h6 class="text-coloreado"><i class="fa fa-calendar fa-fw margen-derecho"></i>2022</h6>
               <p>Curso introductorio de fundamentos básicos de la programación.</p>
               <hr>
             </div>
             <div class="contenedor">
               <h5 class="opacidad"><b>Universidad Fasta</b></h5>
-              <h6 class="text-teal"><i class="fa fa-calendar fa-fw margen-derecho"></i>2019 - 2021</h6>
+              <h6 class="text-coloreado"><i class="fa fa-calendar fa-fw margen-derecho"></i>2019 - 2021</h6>
               <p>Tramo Pedagógico</p>
               <hr>
             </div>
             <div class="contenedor">
               <h5 class="opacidad"><b>Universidad Nacional del Litoral (UNL)</b></h5>
-              <h6 class="text-teal"><i class="fa fa-calendar fa-fw margen-derecho"></i>2017 - 2019</h6>
+              <h6 class="text-coloreado"><i class="fa fa-calendar fa-fw margen-derecho"></i>2017 - 2019</h6>
               <p>Tecnicatura en Informática de Gestión</p><br>
             </div>
           </div>
@@ -174,8 +177,8 @@
       </div>
       
       <!-- Fin Contenedor Página -->
-    </div>
-
+    </main>
+    <!--pie de página-->
     <footer class="contenedor centrado margen-superior">
       <p id="redessociales">Mis Redes Sociales.</p>
       <a href="https://www.facebook.com/Desarrollo.Sitios.Web"><i class="fa fa-facebook-official hover-opacidad"></i></a>
