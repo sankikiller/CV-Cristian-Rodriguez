@@ -1,102 +1,55 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style2.css">
-    
+    <title>Peliculas Codo a Codo</title>
+    <link rel="stylesheet" href="estilo3.css">
 </head>
 <body>
-    <header>
-        <div class="header-logo"><a href="index.html"><img src="Imagenes/logo-peliculas.png"></a></div>
-        <nav class="header-menubar"> 
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="peliculas.html">Peliculas</a></li>
-                <li><a href="series.html">Series</a></li>
-                <li><a href="download.html" download="">Descargas</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="contenido-pantalla-principal">
-            <section class="secciones">
-                <img id="gif-banner" src="Imagenes/BANNER_GREG_14_1024x512_TW_ANIMADO.gif" alt="banner estreno del diario de Greg en noviembre">
-            </section>
-            <section class="secciones">
-                <article>
-                    <img src="Imagenes/Hoppenheimer.jpg" alt="imagen de Oppenheimer">
-                    <div>
-                        <h3>Oppenheimer</h3>
-                        <p>Drama biográfico de corte histórico basado en American Prometheus, la biografía escrita por Kai Bird y Martin J. Sherwin en torno a la figura del científico J. Robert Oppenheimer y su rol en la creación y desarrollo de la bomba atómica. 16 de julio de 1945, en el desierto de Nuevo México se detona en secreto la primera bomba atómica. En tiempos de guerra, el brillante físico estadounidense Julius Robert Oppenheimer (Cillian Murphy), al frente del proyecto Manhattan, lidera los ensayos nucleares para construir la bomba atómica para su país.
-
-                            Impactado por su poder destructivo, Oppenheimer se cuestiona las consecuencias morales de su creación. Desde entonces y durante el resto de su vida, se opondría firmemente a la guerra nuclear y a la todavía más destructiva bomba de hidrógeno. Su vida daría así un profundo vuelco, pasando de tener un papel fundamental en el mapa político de la Guerra Fría a ser acusado de comunista en la era McCarthy. Cuestionando su lealtad, Oppenheimer fue tachando de espía de la Unión Soviética y obligado a dimitir de cualquier función pública.</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="Imagenes/godzillakong.jpg" alt="imagen de la pelicula Godzilla y Kong">
-                    <div>
-                        <h3>Godzilla y Kong: El nuevo imperio</h3>
-                        <p>Tras su último y explosivo enfrentamiento, el todopoderoso Kong y el temible Godzilla, dos de los monstruos que ahora dominan el mundo, se reencuentran para un feroz combate contra una colosal pero desconocida amenaza que se oculta en el planeta. Un enemigo que desafía su propia existencia y, en consecuencia, la de la humanidad protegida por estos titanes. Su historia, sus orígenes y los misterios de la Isla Calavera serán clave para entender la forja de estos extraordinarios seres y su conexión inquebrantable con la humanidad.</p>
-                    </div>
-                </article>
-                
-            </section>
+        <div class="categorias"> 
+           <button class="tudo">Todas as Imagens</button>
+           <button class="so-dependencias">Dependências</button>
+           <button class="so-salas">Salas de aula</button>
+           <button class="so-lazer">Areas de lazer</button>
         </div>
         
-        <form action="Link" method="POST" target="_blank">
-            <fieldset>
-            <label>Registro</label>
-            <label>Nombre:</label>
-            <input type="text">
-            <label>Apellido</label>
-            <input type="text">
-            <label>Dirección:</label>
-            <input type="text">
-            <label>email</label>
-            <input type="text">
-            <label>Contraseña:</label>
-            <input type="password" name="clave" maxlength="6">
-            </fieldset>
-            <label>Ingrese una fecha:</label>
-            <input type="date">
-            <section>
-                <h1>Elegir opciones: </h1>
-                <input type="checkbox" name="opcion" value="1">Opción 1
-                <input type="checkbox" name="opcion" value="2">Opción 2
-            </section>
-            <section>
-                <h1>Elegir opciones: </h1>
-                <input type="radio" name="nombrecolumna" value="1">Opción 1
-                <input type="radio" name="nombrecolumna" value="2">Opción 2
-            </section>
-            Consulta:<textarea name="comentario" rows="10" cols="40"> Escribe tu consulta: </textarea>
-            Seleccione un turno
-            <select name="turno">
-                <option>Mañana</option>
-                <option>Tarde</option>
-                <option>Noche</option>
-                <option>Contraturno</option>
-            </select>
-            <input type="submit" value="Enviar datos">
-        </form>
-        <aside class="contenido-aside">
-            <div class="tenor-gif-embed" data-postid="22307686" data-share-method="host" data-aspect-ratio="1.04235" data-width="100%"><a href="https://tenor.com/view/css-html-computers-coding-programming-gif-22307686">Css Html GIF</a>from <a href="https://tenor.com/search/css-gifs">Css GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-            <div class="tenor-gif-embed" data-postid="19863584" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/front-gif-19863584">Front GIF</a>from <a href="https://tenor.com/search/front-gifs">Front GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-            <div class="dostercios entrarPorDerecha"> 
-        </aside>
-
-    </main>
-    <footer class="contenedor centrado margen-superior">
-      <p id="redessociales">Mis Redes Sociales.</p>
-      <a href="https://www.facebook.com/Desarrollo.Sitios.Web"><i class="fa fa-facebook-official hover-opacidad"></i></a>
-      <a href="https://www.instagram.com/guiagalvez.com.ar/"><i class="fa fa-instagram hover-opacidad"></i></a>
-      <a href="https://www.linkedin.com/in/cristian-rodr%C3%ADguez-419818b3/"><i class="fa fa-linkedin hover-opacidad"></i></a>
-      <a href="https://github.com/sankikiller"><i class="fa fa-github hover-opacidad"></i></a>
-      <p>Desarrollado por <a href="http://guiagalvez.com.ar/cristian" target="_blank">Cristian Rodríguez - 3404510473</a></p>
-    </footer>
-    <script src="/Js/eventos.js"></script>
+        <section class="galeria-peliculas"> 
+          <div class="pelicula"> 
+            <img class="portada" src="img/cazafantasmas.jpg">
+          </div>
+          
+          <div class="pelicula dependencias"> 
+            <img class="portada" src="img/migracion.jpg">
+          </div>
+          
+          <div class="pelicula lazer"> 
+            <img class="portada" src="https://es.web.img2.acsta.net/c_310_420/pictures/23/05/25/13/41/1835431.jpg">
+          </div>
+          
+          <div class="pelicula salas"> 
+            <img class="portada" src="https://es.web.img3.acsta.net/c_310_420/pictures/24/02/27/16/28/3250275.jpg">
+          </div>
+          
+          <div class="pelicula salas"> 
+            <img class="portada" src="https://es.web.img2.acsta.net/c_310_420/pictures/23/05/25/13/41/1835431.jpg">
+          </div>
+          
+          <div class="pelicula salas"> 
+            <img class="portada" src="https://es.web.img3.acsta.net/c_310_420/pictures/24/02/27/16/28/3250275.jpg">
+          </div>
+          
+          <div class="pelicula lazer"> 
+            <img class="portada" src="https://es.web.img2.acsta.net/c_310_420/pictures/23/05/25/13/41/1835431.jpg">
+          </div>
+          
+          <div class="pelicula dependencias"> 
+            <img class="portada" src="https://es.web.img3.acsta.net/c_310_420/pictures/24/02/27/16/28/3250275.jpg">
+          </div>
+          
+          <div class="pelicula dependencias"> 
+            <img class="portada" src="https://es.web.img2.acsta.net/c_310_420/pictures/23/05/25/13/41/1835431.jpg">
+          </div>
+        </section>
 </body>
 </html>
-
