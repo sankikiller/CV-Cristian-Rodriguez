@@ -1,5 +1,5 @@
 Integrantes del grupo:
 
-Massimo Parzanese
-Juan Daniel Aparicio
-Cristian Daniel Rodríguez
+Massimo Parzanese <br>
+Juan Daniel Aparicio <br>
+Cristian Daniel Rodríguez <br>
